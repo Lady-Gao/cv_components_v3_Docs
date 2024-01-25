@@ -3,7 +3,7 @@ import { defineUserConfig, defaultTheme } from 'vuepress'
 export default defineUserConfig({
   lang: 'zh-CN',
   title: 'cv_components_v3',
-  base: process.env.BASE_URL,
+  base: "/cv-components-v3-docs-lady-gaoyanan.vercel.app/",
   description: 'tsp3.0组件库',
   head: [
     [
@@ -12,6 +12,7 @@ export default defineUserConfig({
   ],
  
   theme: defaultTheme({
+    home:'/',
     // 在这里进行配置
     navbar: [
       { text: '文档', link: '/guide', },
