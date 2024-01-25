@@ -1,0 +1,46 @@
+# 本地调试
+
+进入package项目终端，使用命令创建一个软连接
+执行成功后会在本地生成node包
+
+
+
+node包目录 C:\Users\用户名\AppData\Roaming\npm\node_modules
+> components_v3_npm/package/package.json
+```json
+{
+ "main": "index.ts"
+ }
+```
+> components_v3_npm/package 终端
+
+```
+npm link
+```
+
+
+进入tspweb3.0项目终端，使用命令 **建立**链接
+
+这就将这个公共的项目通过软连接的方式引入到项目里面来
+> ---
+> tspweb3.0 终端
+
+ ```
+ npm link cv_components_v3
+ ```
+
+
+> tspweb3.0/ main.js
+
+```js
+ import CVcomponentsV3 from 'cv_components_v3';  
+ 
+ .use(CVcomponentsV3);
+```
+
+> 配置好之后启用项目
+```
+npm run dev
+```
+
+这时修改components_v3_npm/package项目下面的任意代码都会实时生效，不用打包，也不用重启
