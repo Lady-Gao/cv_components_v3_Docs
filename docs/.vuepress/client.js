@@ -7,7 +7,7 @@ import 'element-plus/dist/index.css'
 //         app.use(cv_amapv3);
 // })
 import { defineClientConfig } from '@vuepress/client'
-
+console.log(787777)
 export default defineClientConfig({
   enhance({ app, router, siteData }) {
         app.use(ElementPlus);
