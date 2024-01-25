@@ -3,7 +3,7 @@ import { defineUserConfig, defaultTheme } from 'vuepress'
 export default defineUserConfig({
   lang: 'zh-CN',
   title: 'cv_components_v3',
-  base: '/cv-components-v3-docs.vercel.app/', // 这是部署到github相关的配置 下面会讲
+  base: process.env.BASE_URL,
   description: 'tsp3.0组件库',
   head: [
     [
