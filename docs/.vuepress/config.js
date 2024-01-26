@@ -1,4 +1,4 @@
-import { defineUserConfig, defaultTheme } from 'vuepress'
+import { defineUserConfig, defaultTheme,viteBundler  } from 'vuepress'
 
 export default defineUserConfig({
   lang: 'zh-CN',
@@ -89,5 +89,14 @@ export default defineUserConfig({
       //   collapsable: false, // 可选的, 默认值是 true,
       //   link:'/about/'
       // }
+  }),
+  bundler: viteBundler({
+    vuePluginOptions: {
+      template: {
+        compilerOptions: {
+          isCustomElement: (tag) => tag === 'center',
+        },
+      },
+    },
   }),
 })
