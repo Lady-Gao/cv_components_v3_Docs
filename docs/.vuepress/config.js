@@ -3,7 +3,6 @@ import { defineUserConfig, defaultTheme,viteBundler  } from 'vuepress'
 export default defineUserConfig({
   lang: 'zh-CN',
   title: 'cv_components_v3',
-  base: "/cv-components-v3-docs-lady-gaoyanan.vercel.app/",
   description: 'tsp3.0组件库',
   head: [
     [
