@@ -1,4 +1,4 @@
-import{_ as e,o as n,c as i,e as s}from"./app-LhQIQCaP.js";const a={},c=s(`<h1 id="快速上手" tabindex="-1"><a class="header-anchor" href="#快速上手" aria-hidden="true">#</a> 快速上手</h1><div class="custom-container warning"><p class="custom-container-title">前提条件</p><p>vue3.0以上版本</p></div><div class="language-JS line-numbers-mode" data-ext="JS"><pre class="language-JS"><code>import { createApp } from &#39;vue&#39;
+import{_ as e,o as n,c as i,d as s}from"./app-NfO0PkJI.js";const a={},c=s(`<h1 id="快速上手" tabindex="-1"><a class="header-anchor" href="#快速上手" aria-hidden="true">#</a> 快速上手</h1><div class="custom-container warning"><p class="custom-container-title">前提条件</p><p>vue3.0以上版本</p></div><div class="language-JS line-numbers-mode" data-ext="JS"><pre class="language-JS"><code>import { createApp } from &#39;vue&#39;
 import App from &#39;./App.vue&#39;
 import CVcomponentsV3 from &#39;cv_components_v3&#39;
 
