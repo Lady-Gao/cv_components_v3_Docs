@@ -9,7 +9,7 @@ export default defineUserConfig({
       'link', { rel: 'icon', href: 'https://hstsp.com/favicon.ico' }
     ]
   ],
-  dest:"docs/dist",
+  dest:"dist",
   theme: defaultTheme({
     home:'/',
     // 在这里进行配置
