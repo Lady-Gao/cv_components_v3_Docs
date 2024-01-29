@@ -15,5 +15,5 @@ features:
   details: 享受 Vue 的开发体验，使用 Vue 组件，同时可以使用 Vue 来开发自定义主题。
 - title: 高性能 
   details: 丰富的、可渐进式集成的生态系统，可以根据应用规模在库和框架间切换自如。
-footer: 2022 | cv_components_v3@0.0.15
+footer: 2024 | cv_components_v3@0.0.15
 ---
